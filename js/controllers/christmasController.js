@@ -91,7 +91,7 @@ christmasApp.controller('christmasController',
 
         $scope.totalCostChristmas = function() {
             return  12* $scope.day1() + 11* $scope.day2() + 10*  $scope.day3() +  9 * $scope.day4()+ 8 * $scope.day5()+ 7* $scope.day6() +
-                6 * $scope.day7() +  5* $scope.day8() +  4* $scope.day9() + 3* $scope.day10() +  12* $scope.day11() +  $scope.day12();
+                6 * $scope.day7() +  5* $scope.day8() +  4* $scope.day9() + 3* $scope.day10() +  2* $scope.day11() +  $scope.day12();
         };
 
 
